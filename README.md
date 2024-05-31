@@ -2,6 +2,13 @@
 
 ReqMaster 3000 is a lightweight and configurable requirement management tool. It uses JSON files for backend storage and provides a command-line interface for managing projects, objects, and links between objects. The tool ensures bi-traceable links and easy object configuration.
 
+The goals with this project is:
+ - I as a developer shall learn how to create a open-source project
+ - I as a developer shall learn how to benefit from using different AI tools
+ - Help other developers by creating a requirement management tool that are up to date
+
+ This project is inspired by the Doorstop project.
+
 ## Features
 
 - Easily configurable object types using JSON configuration files.
