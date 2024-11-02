@@ -1,0 +1,13 @@
+{
+    "Title": "SE_kl30 signal change",
+    "Requirement Description": "When the signal SE_kl30 is TRUE, then set YELLOW LED on\nWhen the signal SE_kl30 is FALSE, then set YELLOW LED off",
+    "Status": "Editing",
+    "Priority": "High",
+    "Requirement Type": "Functional",
+    "Version": "1",
+    "Verification Method": "Test",
+    "links": [
+        "2",
+        "3"
+    ]
+}

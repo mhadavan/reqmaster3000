@@ -1,0 +1,15 @@
+{
+    "Title": "Test Case 2",
+    "Test Case Description": "Test that the requirement 1 is behaving as expected",
+    "Preconditions": "12v power supply is connected",
+    "Test Steps": " Step 1: Set the signal SE_kl30 to FALSE.\\n Step 2: Validate that the YELLOW LED is turned off within 100 milliseconds",
+    "Expected Result": "YELLOW LED is turned off",
+    "Actual Result": "",
+    "Status": "Relased",
+    "Priority": "High",
+    "Version": "1",
+    "Unique Requirement ID": "3",
+    "links": [
+        "1"
+    ]
+}

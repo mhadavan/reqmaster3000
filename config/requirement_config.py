@@ -1,8 +1,11 @@
 {
     "fields": [
-        "Unique Requirement ID",
+        "Title",
         "Requirement Description",
         "Status",
+        "Priority",
+        "Requirement Type",
+        "Version",
         "Verification Method"
     ]
 }
