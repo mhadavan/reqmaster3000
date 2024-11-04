@@ -120,7 +120,7 @@ python reqmaster3000.py create-project --project-name Project-A
 ```
 python reqmaster3000.py create-object --project-name Project-A --object-type requirement --object-id req-001 --attributes "Requirement Description=Implement login feature" "Status=Open" "Verification Method=Review"
 ```
-###List Objects and Get Object IDs
+### List Objects and Get Object IDs
 
 Review the objects in projects/Project-A/objects directory to get object IDs.
 
@@ -144,3 +144,9 @@ Python 3.10 or higher
 MIT License
 
 Happy managing your requirements with ReqMaster 3000!
+
+# Todo / Ideas
+*Create a class that generates a graph of all the objects and the links. Maybe use graphwiz and DOT?
+*Rename the project to something else
+*add unit tests
+*add PDF generation?

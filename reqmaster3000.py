@@ -49,8 +49,11 @@ class ReqMaster3000:
         return configs
 
     def create_project(self, project_name):
+        project_path = os.path.join(self.projects_dir, project_name, 'objects')
+        if os.path.exists(project_path):
+            logging.error(f"Error: Project '{project_name}' already exists.")
+            return
         try:
-            project_path = os.path.join(self.projects_dir, project_name, 'objects')
             os.makedirs(project_path, exist_ok=True)
             logging.info(f"Project '{project_name}' created.")
         except Exception as e:
@@ -212,6 +215,8 @@ class ReqMaster3000:
         print("  edit-object --project-name <project_name> --object-id <object_id> [--attributes key1=value1 key2=value2 ...]")
         print("  create-link --project-name <project_name> --object-id <object_id> --object-id-2 <object_id_2>")
         print("  validate-links --project-name <project_name>")
+        print("  list-projects")
+        print("  list-links --project-name <project_name> --object-id <object_id>")
         print("  help")
 
 # Command-line interface
